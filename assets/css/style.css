@@ -42,7 +42,11 @@ body {
 /* Login */
 
 .header {
-    box-shadow: 0 0 1 rgba(62, 67, 74, 0.31);
+    box-shadow: 0 0 1px rgba(62, 67, 74, 0.31);
+}
+
+.header .fa-bars {
+    display: none;
 }
 
 .navbar {
@@ -219,4 +223,25 @@ select {
     font-size: 14px;
     letter-spacing: .2px;
     text-align: center;
+}
+
+
+@media screen and (min-width: 1200px) {
+
+    .header {
+        box-shadow: 0 0 0 transparent;
+    }
+
+    .navbar {
+        padding: 24px 120px;
+        border: 1px solid rgba(58, 53, 65, 0.12);
+        box-shadow: 0 0 0 transparent;
+    }
+
+    .container {
+        padding: 28px 20px;
+        width: 590px;
+        margin: 64px auto;
+        /* background-color: rgba(255, 253, 243, 1); */
+    }
 }
