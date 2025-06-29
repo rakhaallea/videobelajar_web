@@ -761,6 +761,10 @@ footer hr {
         border-radius: 4px;
     }
 
+    .input-region {
+        width: 30%;
+    }
+
     .hero h2,
     .hero p,
     .hero .btn-cta {
