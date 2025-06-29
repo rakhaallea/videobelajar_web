@@ -352,6 +352,10 @@ select {
     padding: 12px 36px 12px 0;
 }
 
+.menus hr {
+    display: none;
+}
+
 .menu .title {
     font-family: "DM Sans", serif;
     font-size: 14px;
@@ -779,8 +783,21 @@ footer hr {
         padding: 10px 26px;
     }
 
-    .menu.active {
-        border-bottom: 6px solid rgba(246, 73, 32, 1);
+    .menus .menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menus hr {
+        display: block;
+        margin-top: 5px;
+    }
+
+    .menus hr.active {
+        width: 40px;
+        border: 2px solid rgba(246, 73, 32, 1);
+        border-radius: 50px;
+        align-self: flex-start;
     }
 
     .cards {
